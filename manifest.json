@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Site Blocker",
+  "version": "1.0.0",
+  "description":"This extension will block the sites you want it to block",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/checker.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
