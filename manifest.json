@@ -6,16 +6,13 @@
   "action": {
     "default_popup": "index.html"
   },
-  "permissions": [
-    "tabs"
+  "permissions":[
+    "storage"
   ],
-  "background": {
-    "service_worker": "service-worker.js"
-  },
   "content_scripts": [
     {
       "js": [
-        "scripts/checker.js"
+        "scripts/script.js"
       ],
       "matches": [
         "<all_urls>"
