@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "description":"This extension will block the sites you want it to block",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "./index.html"
   },
   "permissions":[
     "storage"
   ],
+  "options_page":"./options.html",
   "content_scripts": [
     {
       "js": [
