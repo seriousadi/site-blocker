@@ -14,7 +14,8 @@ async function validate_site(body_innerHTML_substitute) {
 
 
   for (let index = 0; index < blocked_websites.length; index++) {
-    if (blocked_websites[index].search(current_site_name) > -1) {
+    if (blocked_websites[index].search("//") > -1 && blocked_websites[index].search(current_site_name) > -1) {
+      
       document.querySelector("body").innerHTML = body_innerHTML_substitute
     }
   }
