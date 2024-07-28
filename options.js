@@ -10,8 +10,12 @@ async function get_blocked_websites() {
 
 window.onload = async () => {
     let blocked_sites = await get_blocked_websites()
-    blocked_sites = blocked_sites.join("\n")
-    document.getElementById("textarea").value = blocked_sites
+    if (blocked_sites){
+        blocked_sites = blocked_sites.join("\n")
+        document.getElementById("textarea").value = blocked_sites
+    
+    }
+
 }
 document.getElementById("add_sites").onclick = async () => {
     let textarea_value = document.getElementById("textarea").value

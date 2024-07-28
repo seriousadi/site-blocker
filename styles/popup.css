@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: #e9e9f2;
+    color: rgb(58, 55, 55);
+}
+.main-body{
+    margin: 2rem 2rem 0 2rem;
+}
+#options{
+    margin: 0;
+    float:left;
+    background-color: rgb(173, 176, 238);
+    border: none;
+    padding: 5px;
+    color: rgb(58, 55, 55);
+    font-size: medium;
+    font-weight: 700;
+}
+#options:hover{
+    background-color: rgb(133, 137, 225);
+    border-radius: 5px;
+}
