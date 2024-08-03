@@ -1,3 +1,4 @@
+![siteblocker128](https://github.com/user-attachments/assets/1e8ba178-a2f5-4acc-8ebd-099d71961a91) 
 # site-blocker
 ## This extension blocks the website that you want
 This Extension blocks the website you want and it will display 
