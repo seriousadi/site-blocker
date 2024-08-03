@@ -1,11 +1,40 @@
-
-
-#textarea {
-    border-radius: 0.5rem;
-    width: 50%;
-    height: fit-content;
+a{
+    font-size: 1.5rem;
+    display: block;
+    margin: 2rem 0 2rem 0;
 }
-.btn_cls{
-    position: absolute;
-    right: 7rem;
+.container{
+    display: flex;
+    border: 1px solid rgb(203 213 225);
+}
+.container-textarea{
+    border: none;
+}
+.container-lines{
+    width: 1rem;
+    text-align: center;
+border-right: 1px solid rgb(203,213, 225);
+
+}
+#textarea{
+    padding: 0;
+ width: 100%;
+ height: 20rem;
+ outline: none;
+}
+
+#add_sites{
+    float: right;
+    background-color: rgb(233, 102, 102);
+    border: 0;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 2rem;
+    color: azure;
+    border-radius: 5px;
+    font-weight: 900;
+}
+#add_sites:hover{
+    
+    color: rgb(37, 39, 39);
+    background-color: rgb(234, 54, 54);
 }

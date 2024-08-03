@@ -19,5 +19,11 @@
         "<all_urls>"
       ]
     }
-  ]
+  ],
+  "icons":{
+    "16":"./resources/siteblocker16.png",
+    "32":"./resources/siteblocker32.png",
+    "48":"./resources/siteblocker48.png",
+    "128":"./resources/siteblocker128.png"
+  }
 }
