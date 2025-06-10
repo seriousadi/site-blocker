@@ -1,14 +1,38 @@
-body{
-    margin: 0;
+/* Tags */
+body {
+    padding: 5px 10px 5px 10px;
     background-color: #e9e9f2;
     color: rgb(58, 55, 55);
+    font-family: sans-serif;
+    width: 18rem;
 }
-.main-body{
-    margin: 2rem 2rem 0 2rem;
+
+img {
+    mix-blend-mode: difference;
+    object-fit: contain;
 }
-#options{
+
+
+/* Classes */
+.top-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-heading {
+    display: flex;
+}
+
+.block-unblock-button {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 2rem 0;
+
+}
+
+.button {
     margin: 0;
-    float:left;
+    float: left;
     background-color: rgb(173, 176, 238);
     border: none;
     padding: 5px;
@@ -16,7 +40,24 @@ body{
     font-size: medium;
     font-weight: 700;
 }
-#options:hover{
+
+.button:hover {
     background-color: rgb(133, 137, 225);
+    border-radius: 5px;
+}
+
+.blocked-button {
+    margin: 0;
+    float: left;
+    background-color: rgb(132, 132, 135);
+    border: none;
+    padding: 5px;
+    color: rgb(249, 249, 255);
+    font-size: medium;
+    font-weight: 700;
+}
+
+.blocked-button:hover {
+    background-color: rgb(62, 62, 68);
     border-radius: 5px;
 }

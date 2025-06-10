@@ -2,14 +2,15 @@
   "manifest_version": 3,
   "name": "Site Blocker",
   "version": "1.0.0",
-  "description":"This extension will block the sites you want it to block",
+  "description":"This extension will block the sites you want it to block, with just one cilck of a button",
   "action": {
-    "default_popup": "./popup.html"
+    "default_popup": "./htmls`/popup.html"
   },
   "permissions":[
-    "storage"
+    "storage",
+    "tabs"
   ],
-  "options_page":"./options.html",
+  "options_page":"./htmls/options.html",
   "content_scripts": [
     {
       "js": [
@@ -21,9 +22,9 @@
     }
   ],
   "icons":{
-    "16":"./resources/siteblocker16.png",
-    "32":"./resources/siteblocker32.png",
-    "48":"./resources/siteblocker48.png",
-    "128":"./resources/siteblocker128.png"
+    "16":"./icons/siteblocker16.png",
+    "32":"./icons/siteblocker32.png",
+    "48":"./icons/siteblocker48.png",
+    "128":"./icons/siteblocker128.png"
   }
 }

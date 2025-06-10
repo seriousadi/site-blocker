@@ -1,21 +1,14 @@
+/* Tags */
+h1{
+    font-size: 3rem;
+}
 a{
     font-size: 1.5rem;
-    display: block;
     margin: 2rem 0 2rem 0;
 }
-.container{
-    display: flex;
-    border: 1px solid rgb(203 213 225);
-}
-.container-textarea{
-    border: none;
-}
-.container-lines{
-    width: 1rem;
-    text-align: center;
-border-right: 1px solid rgb(203,213, 225);
 
-}
+/* ID's */
+
 #textarea{
     padding: 0;
  width: 100%;
@@ -37,4 +30,19 @@ border-right: 1px solid rgb(203,213, 225);
     
     color: rgb(37, 39, 39);
     background-color: rgb(234, 54, 54);
+}
+
+/* Classes */
+.container{
+    display: flex;
+    border: 1px solid rgb(203 213 225);
+}
+.container-textarea{
+    border: none;
+}
+.container-lines{
+    width: 1rem;
+    text-align: center;
+border-right: 1px solid rgb(203,213, 225);
+
 }

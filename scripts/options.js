@@ -20,6 +20,7 @@ document.getElementById("add_sites").onclick = async () => {
     let textarea_value = document.getElementById("textarea").value
     textarea_value = textarea_value.split("\n")
     await add_site_to_blocklist(textarea_value)
+    window.location.reload()
 }
 
 
