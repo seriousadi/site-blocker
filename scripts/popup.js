@@ -52,7 +52,7 @@ document.getElementById("add_sites").onclick = async () => {
     let [curr_site_url,tabId] = await get_curr_tabs_url()
     let blocked_sites = await get_blocked_websites()
     let button_class = document.getElementById('add_sites')
-
+    blocked_sites = blocked_sites ? blocked_sites : []
     if (button_class.classList.contains("blocked-button") && blocked_sites.includes(curr_site_url)) {
 
         blocked_sites.splice(blocked_sites.indexOf(curr_site_url), 1);
