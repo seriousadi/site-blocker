@@ -8,7 +8,7 @@
   },
   "permissions":[
     "storage",
-    "tabs"
+    "activeTab"
   ],
   "options_page":"htmls/options.html",
   "content_scripts": [
