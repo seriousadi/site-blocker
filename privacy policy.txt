@@ -4,29 +4,27 @@ Last updated: June 11, 2025
 1. What Information Does 'Site Blocker' Collect?    
     The Extension is designed to help you block unwanted websites.To achieve this, 
     it collects the following types of information:
-        > URLs of Visited Pages (Accessed Temporarily):
-            When you choose to activate the blocking feature (e.g., by clicking the 
-            extension icon or using a context menu option),the Extension accesses 
-            the URL of the currently active web page.This is necessary for you to 
-            select and add that specific page to your blocked list. This URL is accessed
-            only at the moment of your interaction and is not stored unless you explicitly
-            add it to your blocked list.
-            Every time you attempt to visit a new web page, the Extension accesses the URL
-            of that page. This is necessary for the Extension to check if the URL is 
-            present in your personal blocked list. If the URL matches an entry in your blocked
-            list, the Extension will prevent the page from loading
+        > URLs of Visited Pages (Accessed for Blocking & Adding):
+          When you choose to activate the blocking feature (e.g., by clicking the 
+          extension icon or using a context menu option), the Extension accesses 
+          the URL of the currently active web page. This access is granted temporarily 
+          by the activeTab permission only at the moment of your interaction. 
+          This is necessary for you to select and add that specific page to your 
+          blocked list. The URL is not stored unless you explicitly add it to your blocked list.
 
-        > Your Blocked List:
-            The Extension stores a list of the URLs that you have explicitly chosen to block. 
-            This list is entirely user-defined and managed directly by you.
+          Additionally, every time you attempt to visit a new web page, the Extension accesses 
+          the URL of that page locally on your device. This is necessary for the Extension to 
+          check if the URL is present in your personal blocked list. If the URL matches an 
+          entry in your blocked list, the Extension will prevent the page from loading.
+
 
 2. Why Does 'Site Blocker' Collect This Information?
     The information described above is collected solely for the following purposes, which 
     are integral to the Extension's functionality:
-        > To enable the core feature of the Extension, allowing you to designate specific 
-          web pages for blocking.
+        > To enable the core feature of the Extension, allowing you to designate specific
+            web pages for blocking.
         > To maintain and enforce your personal list of blocked websites, preventing your
-          browser from loading them according to your preferences.
+            browser from loading them according to your preferences.
 
 3. How Is Your Information Used and Stored?
     > Local Storage Only:
@@ -37,13 +35,19 @@ Last updated: June 11, 2025
         other collected data to our servers,any third-party servers, or any external entities.
         Your data remains entirely on your local computer.
     > No Personally Identifiable Information:
-        This Extension does NOT collect any personally identifiable information (such as your 
-        name, email address, physical address, age, health information, financial information, or
-        personal communications).
+        The Extension does NOT track your general Browse history, mouse movements, keystrokes, 
+        or any user activity beyond the necessary access of a URL for blocking checks and the 
+        explicit interactions you have with the Extension's features (e.g., clicks on the 
+        extension icon to add a URL to the blocked list). The activeTab permission ensures 
+        that access to your Browse data is limited to only what is strictly necessary for the 
+        Extension's direct functionality and is granted only when you actively engage with the 
+        Extension.
+        
     > No Tracking of General Browse:
         The Extension does NOT track your general Browse history, mouse movements, keystrokes,
         or any user activity beyond the explicit interactions you have with the Extension's 
         features (e.g., clicks on the extension icon to add a URL to the blocked list).
+
     > Open Source Transparency:
         As an open-source project, the source code for 'Site Blocker' is publicly available 
         at https://github.com/seriousadi/site-blocker.This allows anyone to inspect the code 
@@ -69,3 +73,4 @@ Last updated: June 11, 2025
     practices, please feel free to contact us:
         > Email: aaz22hsns@gmail.com
         > GitHub Issues (for open-source inquiries): https://github.com/seriousadi/site-blocker/issues
+
